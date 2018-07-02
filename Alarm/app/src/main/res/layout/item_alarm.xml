@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTime"
+            android:padding="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="40sp"
+            style="?android:attr/textAppearanceLarge"
+            android:text="9:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:checked="false"
+            android:id="@+id/switchEnable"
+            android:padding="20dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvItemLoop"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="T2,T3,T4"
+        android:textColor="@color/colorAccent"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

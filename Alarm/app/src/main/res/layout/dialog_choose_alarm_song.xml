@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:backgroundTint="@color/colorPrimary"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize">
+            <ImageView
+                android:id="@+id/imDimissDialog"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:padding="10dp"
+            style="?android:attr/textAppearanceMedium"
+            android:text="Another song"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_add"
+            android:id="@+id/tvChooseAnotherSong"
+            android:layout_marginLeft="25dp"
+            android:padding="5dp"
+            style="?android:attr/textAppearanceSmall"
+            android:text="Choose file"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:padding="10dp"
+            style="?android:attr/textAppearanceMedium"
+            android:text="System song"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tvSystemSong"
+            android:layout_marginLeft="30dp"
+            android:padding="5dp"
+            style="?android:attr/textAppearanceSmall"
+            android:text="Spirit"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
