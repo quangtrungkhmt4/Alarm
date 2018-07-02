@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_height="?android:actionBarSize">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                style="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorAccent"
+                android:text="Alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        style="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvTitleWM"
+        android:text="Title"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvTimeWM"
+        android:text="Time"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginRight="30dp"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tvDimissWM"
+            android:text="Dimiss"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="30dp"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tvSnoozeWM"
+            android:text="Snooze"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
